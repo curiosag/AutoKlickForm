@@ -13,6 +13,7 @@ import java.util.Optional;
  * in response to stack overflow question
  * https://stackoverflow.com/questions/58258396/auto-clicker-thread-wont-stop
  *
+ *
  * */
 
 public class AutoClickFrame extends JFrame implements ActionListener {
@@ -123,7 +124,6 @@ public class AutoClickFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent evt) {
-        System.out.println("event: " + evt.getActionCommand());
         if (evt.getActionCommand().equals("Start")) {
             setAutoKlick(true);
         }

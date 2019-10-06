@@ -33,7 +33,6 @@ public class AutoClicker implements Runnable {
             throw new IllegalStateException();
         }
         shouldKlick = value;
-        System.out.println("set shouldKlick to: " + shouldKlick);
     }
 
     @Override
